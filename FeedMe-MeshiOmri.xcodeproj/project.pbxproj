@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AF8770A4BEEA73A547266C5 /* Pods_FeedMe_MeshiOmri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D4A6F3F8D64F78C7C3F869 /* Pods_FeedMe_MeshiOmri.framework */; };
+		BB3FB3A4268201610098FF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3A3268201610098FF50 /* AppDelegate.swift */; };
+		BB3FB3A6268201610098FF50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3A5268201610098FF50 /* SceneDelegate.swift */; };
+		BB3FB3A8268201610098FF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FB3A7268201610098FF50 /* ViewController.swift */; };
+		BB3FB3AD268201620098FF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3FB3AC268201620098FF50 /* Assets.xcassets */; };
+		BB3FB3B0268201620098FF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3FB3AE268201620098FF50 /* LaunchScreen.storyboard */; };
+		BB77E6022687622500E49879 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6012687622500E49879 /* CategoryTableViewController.swift */; };
+		BB77E6042687625200E49879 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6032687625200E49879 /* MenuTableViewController.swift */; };
+		BB77E60B2687650A00E49879 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E60A2687650A00E49879 /* MenuItemDetailViewController.swift */; };
+		BB77E60D268765E500E49879 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E60C268765E500E49879 /* MenuItem.swift */; };
+		BB77E60F2687671700E49879 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E60E2687671700E49879 /* Favorite.swift */; };
+		BB77E6112687672D00E49879 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6102687672D00E49879 /* Categories.swift */; };
+		BB77E61526876B5F00E49879 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E61426876B5F00E49879 /* MenuController.swift */; };
+		BB77E61726876CD800E49879 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E61626876CD800E49879 /* LocalData.swift */; };
+		BB77E6192687715000E49879 /* UITableViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB77E6182687715000E49879 /* UITableViewControllerExtension.swift */; };
+		BB782F8326877BFF00824586 /* AddToFavoritesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB782F8226877BFF00824586 /* AddToFavoritesDelegate.swift */; };
+		BB782F8526877C6700824586 /* FavorieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB782F8426877C6700824586 /* FavorieTableViewController.swift */; };
+		BBB074B5268B5CDB00433B0E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB074B4268B5CDB00433B0E /* SignUpViewController.swift */; };
+		BBB074B7268B5CFF00433B0E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB074B6268B5CFF00433B0E /* LoginViewController.swift */; };
+		BBE23FE72690A5630059226E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE23FE62690A5630059226E /* User.swift */; };
+		CFEDE4D726AD7FC1006016B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3FB3A9268201610098FF50 /* Main.storyboard */; };
+		CFEDE4D926AEF148006016B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFEDE4D826AEF148006016B6 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AE19F642DF7461D1D639F7C /* Pods-FeedMe-MeshiOmri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedMe-MeshiOmri.debug.xcconfig"; path = "Target Support Files/Pods-FeedMe-MeshiOmri/Pods-FeedMe-MeshiOmri.debug.xcconfig"; sourceTree = "<group>"; };
+		87D4A6F3F8D64F78C7C3F869 /* Pods_FeedMe_MeshiOmri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedMe_MeshiOmri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3FB3A0268201610098FF50 /* FeedMe-MeshiOmri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedMe-MeshiOmri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3FB3A3268201610098FF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB3FB3A5268201610098FF50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB3FB3A7268201610098FF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB3FB3AA268201610098FF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB3FB3AC268201620098FF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB3FB3AF268201620098FF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB77E6012687622500E49879 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		BB77E6032687625200E49879 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		BB77E60A2687650A00E49879 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		BB77E60C268765E500E49879 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		BB77E60E2687671700E49879 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		BB77E6102687672D00E49879 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		BB77E61426876B5F00E49879 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		BB77E61626876CD800E49879 /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		BB77E6182687715000E49879 /* UITableViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewControllerExtension.swift; sourceTree = "<group>"; };
+		BB782F8226877BFF00824586 /* AddToFavoritesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToFavoritesDelegate.swift; sourceTree = "<group>"; };
+		BB782F8426877C6700824586 /* FavorieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavorieTableViewController.swift; sourceTree = "<group>"; };
+		BBB074B4268B5CDB00433B0E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BBB074B6268B5CFF00433B0E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBE23FE62690A5630059226E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CFEDE4D826AEF148006016B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFF1C15926AD67D500B104BD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA87770F22D6B28F1E65B076 /* Pods-FeedMe-MeshiOmri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedMe-MeshiOmri.release.xcconfig"; path = "Target Support Files/Pods-FeedMe-MeshiOmri/Pods-FeedMe-MeshiOmri.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB3FB39D268201610098FF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF8770A4BEEA73A547266C5 /* Pods_FeedMe_MeshiOmri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F430C650577D0E1FA9C1AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D4A6F3F8D64F78C7C3F869 /* Pods_FeedMe_MeshiOmri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86D707BC0F73ABBFBE91897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AE19F642DF7461D1D639F7C /* Pods-FeedMe-MeshiOmri.debug.xcconfig */,
+				DA87770F22D6B28F1E65B076 /* Pods-FeedMe-MeshiOmri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB3FB397268201610098FF50 = {
+			isa = PBXGroup;
+			children = (
+				CFF1C15926AD67D500B104BD /* Info.plist */,
+				BB3FB3A2268201610098FF50 /* FeedMe-MeshiOmri */,
+				BB3FB3A1268201610098FF50 /* Products */,
+				B86D707BC0F73ABBFBE91897 /* Pods */,
+				6F430C650577D0E1FA9C1AB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB3FB3A1268201610098FF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB3FB3A0268201610098FF50 /* FeedMe-MeshiOmri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB3FB3A2268201610098FF50 /* FeedMe-MeshiOmri */ = {
+			isa = PBXGroup;
+			children = (
+				CFEDE4D826AEF148006016B6 /* GoogleService-Info.plist */,
+				BB3FB3AC268201620098FF50 /* Assets.xcassets */,
+				BB3FB3A9268201610098FF50 /* Main.storyboard */,
+				BB3FB3AE268201620098FF50 /* LaunchScreen.storyboard */,
+				BB77E609268762AD00E49879 /* Controller */,
+				BB77E6072687629500E49879 /* Model */,
+				BB3FB3A7268201610098FF50 /* ViewController.swift */,
+				BB77E61626876CD800E49879 /* LocalData.swift */,
+				BB782F8226877BFF00824586 /* AddToFavoritesDelegate.swift */,
+			);
+			path = "FeedMe-MeshiOmri";
+			sourceTree = "<group>";
+		};
+		BB77E6072687629500E49879 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB77E60C268765E500E49879 /* MenuItem.swift */,
+				BB77E60E2687671700E49879 /* Favorite.swift */,
+				BB77E6102687672D00E49879 /* Categories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB77E609268762AD00E49879 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBB074B8268B5D1200433B0E /* Login */,
+				BB77E60A2687650A00E49879 /* MenuItemDetailViewController.swift */,
+				BB77E6012687622500E49879 /* CategoryTableViewController.swift */,
+				BB77E6032687625200E49879 /* MenuTableViewController.swift */,
+				BB3FB3A3268201610098FF50 /* AppDelegate.swift */,
+				BB3FB3A5268201610098FF50 /* SceneDelegate.swift */,
+				BB77E61426876B5F00E49879 /* MenuController.swift */,
+				BB77E6182687715000E49879 /* UITableViewControllerExtension.swift */,
+				BB782F8426877C6700824586 /* FavorieTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBB074B8268B5D1200433B0E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BBB074B4268B5CDB00433B0E /* SignUpViewController.swift */,
+				BBB074B6268B5CFF00433B0E /* LoginViewController.swift */,
+				BBE23FE62690A5630059226E /* User.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB3FB39F268201610098FF50 /* FeedMe-MeshiOmri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB3FB3CA268201620098FF50 /* Build configuration list for PBXNativeTarget "FeedMe-MeshiOmri" */;
+			buildPhases = (
+				CC12163F0B3A3ED24A8417D2 /* [CP] Check Pods Manifest.lock */,
+				BB3FB39C268201610098FF50 /* Sources */,
+				BB3FB39D268201610098FF50 /* Frameworks */,
+				BB3FB39E268201610098FF50 /* Resources */,
+				3A6BA237C852BAA816C4348C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FeedMe-MeshiOmri";
+			productName = "LetsEat-OferDrori";
+			productReference = BB3FB3A0268201610098FF50 /* FeedMe-MeshiOmri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB3FB398268201610098FF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BB3FB39F268201610098FF50 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BB3FB39B268201610098FF50 /* Build configuration list for PBXProject "FeedMe-MeshiOmri" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB3FB397268201610098FF50;
+			productRefGroup = BB3FB3A1268201610098FF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB3FB39F268201610098FF50 /* FeedMe-MeshiOmri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB3FB39E268201610098FF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3FB3B0268201620098FF50 /* LaunchScreen.storyboard in Resources */,
+				CFEDE4D926AEF148006016B6 /* GoogleService-Info.plist in Resources */,
+				BB3FB3AD268201620098FF50 /* Assets.xcassets in Resources */,
+				CFEDE4D726AD7FC1006016B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6BA237C852BAA816C4348C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeedMe-MeshiOmri/Pods-FeedMe-MeshiOmri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FeedMe-MeshiOmri/Pods-FeedMe-MeshiOmri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FeedMe-MeshiOmri/Pods-FeedMe-MeshiOmri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC12163F0B3A3ED24A8417D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeedMe-MeshiOmri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB3FB39C268201610098FF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB074B7268B5CFF00433B0E /* LoginViewController.swift in Sources */,
+				BB77E61726876CD800E49879 /* LocalData.swift in Sources */,
+				BB3FB3A8268201610098FF50 /* ViewController.swift in Sources */,
+				BB77E6112687672D00E49879 /* Categories.swift in Sources */,
+				BB3FB3A4268201610098FF50 /* AppDelegate.swift in Sources */,
+				BBB074B5268B5CDB00433B0E /* SignUpViewController.swift in Sources */,
+				BB77E61526876B5F00E49879 /* MenuController.swift in Sources */,
+				BB77E6042687625200E49879 /* MenuTableViewController.swift in Sources */,
+				BB77E60F2687671700E49879 /* Favorite.swift in Sources */,
+				BB77E60B2687650A00E49879 /* MenuItemDetailViewController.swift in Sources */,
+				BB782F8326877BFF00824586 /* AddToFavoritesDelegate.swift in Sources */,
+				BB3FB3A6268201610098FF50 /* SceneDelegate.swift in Sources */,
+				BB77E60D268765E500E49879 /* MenuItem.swift in Sources */,
+				BB782F8526877C6700824586 /* FavorieTableViewController.swift in Sources */,
+				BB77E6022687622500E49879 /* CategoryTableViewController.swift in Sources */,
+				BB77E6192687715000E49879 /* UITableViewControllerExtension.swift in Sources */,
+				BBE23FE72690A5630059226E /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB3FB3A9268201610098FF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3FB3AA268201610098FF50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB3FB3AE268201620098FF50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB3FB3AF268201620098FF50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB3FB3C8268201620098FF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "FeedMe-MeshiOmri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB3FB3C9268201620098FF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "FeedMe-MeshiOmri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB3FB3CB268201620098FF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE19F642DF7461D1D639F7C /* Pods-FeedMe-MeshiOmri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_ENTITLEMENTS = "FeedMe-MeshiOmri/FeedMe-MeshiOmri.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FeedMe-MeshiOmri/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "FeedMe-MeshiOmri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meshiomri.FeedMe-MeshiOmri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB3FB3CC268201620098FF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA87770F22D6B28F1E65B076 /* Pods-FeedMe-MeshiOmri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_ENTITLEMENTS = "FeedMe-MeshiOmri/FeedMe-MeshiOmri.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "FeedMe-MeshiOmri/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "FeedMe-MeshiOmri/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meshiomri.FeedMe-MeshiOmri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB3FB39B268201610098FF50 /* Build configuration list for PBXProject "FeedMe-MeshiOmri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3FB3C8268201620098FF50 /* Debug */,
+				BB3FB3C9268201620098FF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB3FB3CA268201620098FF50 /* Build configuration list for PBXNativeTarget "FeedMe-MeshiOmri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3FB3CB268201620098FF50 /* Debug */,
+				BB3FB3CC268201620098FF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB3FB398268201610098FF50 /* Project object */;
+}

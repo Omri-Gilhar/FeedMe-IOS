@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>57151883537-8b8u2qqp4o4f19fc2v5ecq7330gughrf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.57151883537-8b8u2qqp4o4f19fc2v5ecq7330gughrf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwVszvXVLWsIA43sblSf4wH2JGKPeAM28</string>
+	<key>GCM_SENDER_ID</key>
+	<string>57151883537</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.FeedMe.Foody</string>
+	<key>PROJECT_ID</key>
+	<string>feedme-87cfb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>feedme-87cfb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:57151883537:ios:081ee2aaaf629b8aa3e4b0</string>
+</dict>
+</plist>
